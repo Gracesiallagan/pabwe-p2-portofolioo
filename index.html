@@ -13,6 +13,49 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      /* Tambahan styling untuk sertifikat */
+      .certificate-card img.certificate-img {
+        max-width: 250px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        display: block;
+      }
+
+      .certificates {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+      }
+
+      .certificate-card {
+        background: #fff;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        text-align: center;
+        max-width: 300px;
+      }
+
+      .certificate-info {
+        margin-top: 0.8rem;
+      }
+
+      .certificate-info h4 {
+        font-size: 1rem;
+        color: #3b82f6;
+        margin-bottom: 0.2rem;
+      }
+
+      .certificate-info span {
+        font-size: 0.85rem;
+        color: #6b7280;
+      }
+    </style>
   </head>
   <body>
     <!-- Header -->
@@ -42,7 +85,7 @@
         <a href="mailto:emailanda@gmail.com"
           ><i class="fas fa-envelope"></i> Email</a
         >
-        <a href="https://wa.me/6281234567890"
+        <a href="https://wa.me/6281361428113"
           ><i class="fab fa-whatsapp"></i> WhatsApp</a
         >
       </div>
@@ -63,6 +106,19 @@
           <h3>SMA Negeri 1 Simanindo</h3>
           <span>2020 - 2023</span>
           <p>Jurusan IPA, aktif di organisasi dan lomba IT.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>SMP Negeri 1 Simanindo</h3>
+          <span>2017 - 2020</span>
+          <p>Aktif dalam kegiatan osis.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>SD Negeri 9 Tomok</h3>
+          <span>2011 - 2017</span>
+          <p>
+            Aktif mengikuti Olimpiade Sains dan kegiatan ekstrakurikuler
+            sekolah.
+          </p>
         </div>
       </div>
     </section>
@@ -102,21 +158,29 @@
       </div>
     </section>
 
-    <
+    <!-- Sertifikat -->
     <section class="section" id="certificates">
       <div class="section-title">
         <h2>Sertifikat</h2>
       </div>
       <div class="certificates">
         <div class="certificate-card">
-          <img src="sertifikat1.png" alt="Sertifikat Microsoft Azure" />
+          <img
+            src="sertifikat1.png"
+            alt="Sertifikat Microsoft Azure"
+            class="certificate-img"
+          />
           <div class="certificate-info">
             <h4>Microsoft Azure AI Fundamentals</h4>
             <span>Microsoft | 2025</span>
           </div>
         </div>
         <div class="certificate-card">
-          <img src="sertifikat2.png" alt="Sertifikat Cisco IoT" />
+          <img
+            src="sertifikat2.png"
+            alt="Sertifikat Cisco IoT"
+            class="certificate-img"
+          />
           <div class="certificate-info">
             <h4>Introduction to Internet of Things</h4>
             <span>Cisco | 2025</span>
@@ -125,7 +189,7 @@
       </div>
     </section>
 
-    <!<!-- Portfolio -->
+    <!-- Portfolio -->
     <section class="section" id="portfolio">
       <div class="section-title">
         <i class="fas fa-folder-open"></i>

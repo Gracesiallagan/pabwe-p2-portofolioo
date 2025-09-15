@@ -160,6 +160,15 @@ a {
     }
   }
 }
+// Sertifikat
+.certificate-img {
+  max-width: 250px; // perkecil lebar gambar
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  display: block;
+}
 
 // Skills
 .skills {
